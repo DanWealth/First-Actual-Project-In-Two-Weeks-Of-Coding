@@ -20,7 +20,8 @@ body{
     margin-right: auto;
     margin-top: 35px;
     padding: 20px;
-    border-radius: 10px 10px 10px 0px;
+    padding-bottom: 40px;
+    border-radius: 12px 12px 12px 0px;
     background-color: #ffffff;
 }
 .formContent{
@@ -50,7 +51,7 @@ input{
     margin-top: 8px;
 }
 select{
-    width: 95%;
+    width: 99%;
     height: 60px;
     background-color: #edf2f7;
     margin-bottom: 30px;
@@ -64,4 +65,24 @@ select{
 }
 option{
     font-size: 15px;
+}
+button{
+    margin-left: 19px;
+    width: 90%;
+    height: 50px;
+    background-color: #083e9e;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 7px 7px 7px 0px;
+}
+#log{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 800px){
+    
 }
