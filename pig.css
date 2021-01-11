@@ -83,6 +83,13 @@ button{
     color: #ffffff;
 }
 
+
 @media only screen and (max-width: 800px){
     
 }
+
+input:focus {
+    outline-color: #edf2f7;;
+    border-color: white;
+  }
+
